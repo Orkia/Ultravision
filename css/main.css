@@ -3,15 +3,55 @@
 * -------------
 * Global Styles
 * -------------
-*/
+
+
 
 body {
   /* Default font family and font color */
-}
+}font-family: 'Poppins', sans-serif;
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
+
+.header_title {
+font-family: 'Poppins', sans-serif;
+text-align: center;
+color: #fff; 
+font-size: 88px; 
+background-color: #fcce00; 
+margin-top : 0; 
+margin-bottom : 8px; 
+text-transform: uppercase; 
+}
+.header_subtitle {
+  font-family:'Poppins', sans-serif;;
+  text-align: center;
+  color: #fff; 
+  font-size: 38px;
+  background-color: #ff6b00;
+  margin-top: 0;
+  margin-bottom: 8px; 
+}
+.header_deco {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.header_deco--red {
+width: 1440px ;
+min-height: 32px;
+background-color: #e02020;
+}
+.header_deco--violet {
+  min-height: 16px;
+  background-color: #b620e0;
+}
+.header_deco--purple {
+  min-height: 8px;
+  background-color: #6236ff;
+}
+
+
 
 
 
