@@ -1,14 +1,12 @@
 
-/**
-* -------------
-* Global Styles
-* -------------
+
 
 
 
 body {
   /* Default font family and font color */
-}font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
@@ -25,7 +23,7 @@ margin-bottom : 8px;
 text-transform: uppercase; 
 }
 .header_subtitle {
-  font-family:'Poppins', sans-serif;;
+  font-family:'Poppins', bold;;
   text-align: center;
   color: #fff; 
   font-size: 38px;
@@ -54,29 +52,110 @@ background-color: #e02020;
 
 
 h2 { 
-  class"sub-title">It's a COMPUTER, it's a COLOR TV, it's an ARCADE</h2>
-  font-family:'Poppins', sans-serif;
+ 
+  font-family:'Poppins', bold;
   text-align: center ;
-  text-justify 
   color: #231f20; 
-  size : 40px; 
+  font-size : 40px; 
 }
 
-{
-<p> When you're ready for serious business, power-on to the Master Keyboard. 
-Our state-of-the-art Microprocessor and the RAM packed (64K) internal components (expandable to 128K)
-turn this system into one of the most powerful computers on the market.
-When the business gets tiresome and you want some real excitement, choose one of our 12 action-packed games ... they'll blow you away. 
-And don't feel sorry if you have a large library of Atari VCS, or ColecoVision games, because you can enjoy them through our expansion modules.
-This revolutionary system doesn't just claim to duplicate the arcade experience... it surpasses it! And it's portable too, A/C or D/C. 
-Plus 3 dimensional graphics, zoom and other special visual effects. 
-The unique built-in sound system simulates echo and reverberation for authentic reproduction of explosions, crowds, music, etc. 
-And you can hear it all without disturbing others. As a Color TV, it's better than most, with 2 independent systems to guarantee the sharpest resolution for the Computer/Game Systems and TV. </p>
-text-justify
-size : 16px; 
-color: #231f20
-font-family :'Poppins regular', sans-serif;
+.mis-avant {
+  display: flex;
+  max-width: 1280px; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
+
+.mis-avant_content, 
+.mis-avant_illu {
+flex-basis: 320px; 
+flex-grow: 1; 
+}
+
+.mis-avant_content {
+ padding-top: 0; 
+ padding-right : 32px; 
+ padding-bottom: 32px; 
+ padding-left: 32px; 
+}
+
+.mis-avant_microtitre {
+font-size: 24px;
+font-weight: 700;
+}
+
+.paragraphe {
+font-size: 16px;
+text-align: justify;   
+}
+
+.mis-avant_illu {
+background-image:url(../img/bg-yellow.png);
+background-position: left bottom;
+background-size: auto 100%; 
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+.mis-avant_image {
+display : block;
+max-width: 70%;
+mix-blend-mode: darken;
+}
+
+.mis-avant1 {
+display: flex; 
+max-width: 1280px; 
+margin-left: auto; 
+margin-right: auto; 
+}
+
+.mis-avant_content1, 
+.mis-avant_illu1 {
+flex-basis: 320px; 
+flex-grow: 1; 
+}
+
+.mis-avant_content1 {
+  padding-top: 0; 
+  padding-right : 32px; 
+  padding-bottom: 32px; 
+  padding-left: 32px; 
+ }
+
+ .mis-avant_microtitre1 {
+  font-size: 24px;
+  font-weight: 700;
+  }
+
+  .paragraphe1 {
+  font-size: 16px;
+  text-align: justify;   
+  }
+
+  .mis-avant_illu1 {
+  background-image:url(../img/bg-orange.png);
+  background-position: right bottom;
+  background-size: auto 100%; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  }
+
+  .mis-avant_image1{
+  display : block;
+  max-width: 70%;
+  mix-blend-mode: darken;
+  }
+
+  .subtitle1 {
+    font-family: bold;
+    font-size: 40px;
+  }
+
+  
+
 
 h1 {
    /* Default font, size, and margins */
