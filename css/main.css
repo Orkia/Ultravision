@@ -154,6 +154,138 @@ flex-grow: 1;
     font-size: 40px;
   }
 
+
+.flexbox-container {
+  display: flex;
+}
+
+.bloc-content,
+.bloc-illu{
+  flex-basis:0px;
+  flex-grow: 1;
+}
+
+.feature-1 {
+background-image: url(../img/bg-red.png);
+background-repeat: repeat;
+background-size: contain;
+mix-blend-mode: darken;
+}
+    
+.block-content {
+margin-right: 32px;
+margin-left: 32px; 
+}
+    
+.microtitre1 {
+margin: 0 0 32px 32px;
+font-family: poppins;
+font-size: 32px;
+font-weight: bold;
+text-align:left;
+color: white;
+}
+    
+.paragraphe2 {
+font-size: 24px;
+margin: 32px 32px 0;
+text-align: left;
+color: white;
+}
+    
+.button1 {
+font-size: 20px;
+color: white;
+font-weight: bold;
+text-align: center;
+border: solid 4px white;
+border-radius: 15px; 
+display: block;
+margin: 34px 100px;
+max-width: 300px; 
+}
+    
+
+
+.feature-2 {
+background-image: url(../img/bg-violet.png);
+background-repeat: repeat;
+background-size: contain;
+mix-blend-mode: darken;
+}
+
+.block-content {
+margin-right: 32px;
+margin-left: 32px; 
+}
+
+.microtitre2 {
+  margin: 0 0 32px 32px;
+  font-family: poppins;
+font-size: 32px;
+font-weight: bold;
+text-align:left;
+color: white;
+}
+
+.paragraphe3 {
+font-size: 24px;
+margin: 32px 32px 0;
+text-align: left;
+color: white;
+}
+
+.button2 {
+font-size: 20px;
+color: white;
+font-weight: bold;
+text-align: center;
+border: solid 4px white;
+border-radius: 15px; 
+display: block;
+margin: 34px 100px;
+max-width: 300px; 
+}
+
+.feature-3 {
+background-image: url(../img/bg-blue.png);
+background-repeat: repeat;
+background-size: contain;
+mix-blend-mode: darken;
+}
+  
+.block-content {
+margin-right: 32px;
+margin-left: 32px; 
+}
+  
+.microtitre3 {
+margin: 0 0 32px 32px;
+font-family: poppins;
+font-size: 32px;
+font-weight: bold;
+text-align:left;
+color: white;
+}
+  
+.paragraphe4{
+font-size: 24px;
+margin: 32px 32px 0;
+text-align: left;
+color: white;
+}
+  
+.button3 {
+font-size: 20px;
+color: white;
+font-weight: bold;
+text-align: center;
+border: solid 4px white;
+border-radius: 15px; 
+display: block;
+margin: 34px 100px;
+max-width: 300px; 
+}
   
 
 
